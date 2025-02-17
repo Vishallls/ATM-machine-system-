@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    
+}
+
+.outer-box{
+    width:100vw;
+    height:100vh;
+    background:linear-gradient(to top left,#3ed8ff,#a8f5ff)
+}
+.inner-box{
+    width: 25vw;
+    margin: 0 auto;
+    position: relative;
+    top:40%;
+    transform:translateY(-50);
+    background-color: rgb(148, 238, 249);
+   padding:20px 40px;
+   border-radius: 8px;
+    
+    
+
+}
+.signup-header{
+    font-family:'Times New Roman', Times, serif
+}
+.signup-header p{
+   color:#555;
+}
+.signup-body{
+    margin:20px 0;
+    
+}
+.signup-body p{
+    margin:20px 0;
+}
+.signup-body p input{
+    margin:20px 0;
+}
+

@@ -1,0 +1,29 @@
+.intro{
+    border: 5px solid black;
+}
+.bio{
+    border:5px solid black;
+}
+.studies{
+    border:5px solid black;
+
+}
+.goals{
+    border:5px solid black;
+
+}
+.skills{
+    border:5px solid black;
+
+}
+.faq{
+    border:5px solid black;
+
+}
+.credit{
+    border:5px solid black;
+
+}
+.bio.img{
+    height:200px;
+}

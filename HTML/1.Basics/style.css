@@ -1,0 +1,25 @@
+*{
+    color:rgb(244, 244, 244)
+
+}
+.table{
+    background-color:rgb(17, 111, 233);
+    width:250px;
+  
+}
+
+  nav {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0;
+    margin: 0;
+    display: inline-block; /* Display items horizontally */
+    margin-right: 10px; /* Add some space between items */
+  }
+  input{
+    margin-top: 20px;
+    margin-bottom: 20px;
+ 
+}
+button{
+    color:black;
+}

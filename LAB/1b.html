@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FeedBack Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        header {
+            font-size: 50px;
+            font-weight: bold;
+            color: brown;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        nav {
+            text-align: center;
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+
+        form {
+            width: 500px;
+            margin: 0 auto;
+            border: 1px solid #ccc;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        select,
+        textarea {
+            width: 100%;
+            padding: 5px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        input[type="radio"],
+        input[type="checkbox"] {
+            margin-right: 5px;
+        }
+
+        #btn {
+            background-color: #2b8e8e;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        #btn:hover {
+            background-color: #237575;
+        }
+
+        .btn-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        input[type="reset"] {
+            background-color: #ccc;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <header>FEEDBACK</header>
+    <nav>
+        You can help us improve our website by using the following form to let us know what you think or what needs to be changed.
+    </nav>
+    <form action="">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+
+        <label for="mail">E-mail:</label>
+        <input type="email" id="mail" name="email" required>
+        <br>
+
+        <label for="checkBox">Are you a club member:</label>
+        <input type="checkbox" id="checkBox" name="club_member">
+        <br>
+
+        <label>Your Age:</label><br>
+        <input type="radio" id="age1" name="age" value="<=20" required> <= 20<br>
+        <input type="radio" id="age2" name="age" value="21-30"> 21-30<br>
+        <input type="radio" id="age3" name="age" value="31-40"> 31-40<br>
+        <input type="radio" id="age4" name="age" value=">41"> > 41<br>
+
+        <label for="state">Your State:</label>
+        <select id="state" name="state" required>
+            <option value="">-- Select a State --</option>
+            <option value="andhra-pradesh">Andhra Pradesh</option>
+            <option value="arunachal-pradesh">Arunachal Pradesh</option>
+            <option value="assam">Assam</option>
+            <option value="bihar">Bihar</option>
+            <option value="chhattisgarh">Chhattisgarh</option>
+            <option value="goa">Goa</option>
+            <option value="gujarat">Gujarat</option>
+            <option value="haryana">Haryana</option>
+            <option value="himachal-pradesh">Himachal Pradesh</option>
+            <option value="jharkhand">Jharkhand</option>
+            <option value="karnataka">Karnataka</option>
+            <option value="kerala">Kerala</option>
+            <option value="madhya-pradesh">Madhya Pradesh</option>
+            <option value="maharashtra">Maharashtra</option>
+            <option value="manipur">Manipur</option>
+            <option value="meghalaya">Meghalaya</option>
+            <option value="mizoram">Mizoram</option>
+            <option value="nagaland">Nagaland</option>
+            <option value="odisha">Odisha</option>
+            <option value="punjab">Punjab</option>
+            <option value="rajasthan">Rajasthan</option>
+            <option value="sikkim">Sikkim</option>
+            <option value="tamil-nadu">Tamil Nadu</option>
+            <option value="telangana">Telangana</option>
+            <option value="tripura">Tripura</option>
+            <option value="uttar-pradesh">Uttar Pradesh</option>
+            <option value="uttarakhand">Uttarakhand</option>
+            <option value="west-bengal">West Bengal</option>
+        </select>
+        <br>
+
+        <label for="reach">How did you find out about our site:</label>
+        <select id="reach" name="referral_source" required>
+            <option value="">-- Select an option --</option>
+            <option value="webSearch">Web Search</option>
+            <option value="site">Another Website</option>
+            <option value="friend">Friend</option>
+        </select>
+        <br>
+
+        <label for="suggestion">Site Suggestions:</label>
+        <textarea id="suggestion" name="site_suggestions" rows="4" cols="50"></textarea>
+        <br>
+
+        <label for="cmnts">Other Comments:</label>
+        <textarea id="cmnts" name="other_comments" rows="4" cols="50"></textarea>
+        <br>
+
+        <input type="submit" value="Submit" id="btn">
+        <input type="reset" value="Reset" id="btn">
+    </form>
+</body>
+</html>

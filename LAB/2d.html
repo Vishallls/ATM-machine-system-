@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hotel Booking - Discover Jaipur</title>
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <header>
+    <img src="images/logo.png" alt="City Logo" class="logo">
+    <h1>Discover Jaipur</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="heritage.html">Heritage</a></li>
+        <li><a href="hotel-booking.html">Hotel Booking</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h2>Plan Your Stay in Jaipur</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" name="phone" required><br><br>
+
+      <label for="checkin">Check-in Date:</label>
+      <input type="date" id="checkin" name="checkin" required><br><br>
+
+      <label for="checkout">Check-out Date:</label>
+      <input type="date" id="checkout" name="checkout" required><br><br>
+
+      <label for="guests">Number of Guests:</label>
+      <input type="number" id="guests" name="guests" min="1" required><br><br>
+
+      <label for="roomtype">Room Type:</label>
+      <select id="roomtype" name="roomtype">
+        <option value="single">Single</option>
+        <option value="double">Double</option>
+        <option value="suite">Suite</option>
+      </select><br><br>
+
+      <label for="requests">Special Requests:</label><br>
+      <textarea id="requests" name="requests" rows="4" cols="50"></textarea><br><br>
+
+      <button type="submit">Book Now</button>
+    </form>
+  </main>
+  <footer>
+    <p>&copy; 2025 Discover Jaipur. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
